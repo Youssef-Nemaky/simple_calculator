@@ -33,7 +33,7 @@
 
 /* LCD MODE */
 /* Choose between LCD_EIGHT_BIT_MODE or LCD_FOUR_BIT_MODE */
-#define LCD_MODE LCD_FOUR_BIT_MODE
+#define LCD_MODE LCD_EIGHT_BIT_MODE
 
 #if (LCD_MODE == LCD_FOUR_BIT_MODE)
 /* Select which half the LCD is connected to
@@ -46,13 +46,13 @@
 #endif
 
 /* LCD Data Port */
-#define LCD_DATA_PORT PORTA_ID
+#define LCD_DATA_PORT PORTC_ID
 /* LCD Control Pins Port */
-#define LCD_CMD_PORT  PORTB_ID
+#define LCD_CMD_PORT  PORTA_ID
 /* LCD Control Pins */
-#define LCD_RS PB0
-#define LCD_RW PB1
-#define LCD_EN PB2
+#define LCD_RS PA0
+#define LCD_RW PA1
+#define LCD_EN PA2
 
 
 /**** End of Settings To Change ****/
