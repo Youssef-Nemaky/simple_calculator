@@ -29,7 +29,7 @@
 #endif
 
 /* Keypad Port ID */
-#define KEYPAD_PORT PORTA_ID
+#define KEYPAD_PORT PORTD_ID
 
 /*
 ==============================================================================
