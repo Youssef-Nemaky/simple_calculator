@@ -73,7 +73,8 @@
 #define LCD_CMD_SECOND_LINE_ADDRESS          (0xC0)
 #define LCD_CMD_THRID_LINE_ADDRESS           (0x90)
 #define LCD_CMD_FOURTH_LINE_ADDRESS          (0xD0)
-
+#define LCD_CMD_SHIFT_DISPLAY_RIGHT          (0x1C)
+#define LCD_CMD_SHIFT_DISPLAY_LEFT           (0x18)
 
 /*
 ==============================================================================
